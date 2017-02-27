@@ -6,12 +6,16 @@ module.exports = {
     getTwiliAccountSettingsfromFile: 'Y',
 
 
-    // Your primary Twilio Account SID
-    accountSid: 'AC2562017046299417fd09a118c04051a3',
+    // Your primary Twilio Account SID  and Auth Token 
+    accountSid: 'ACnnnnnnnnnYourAccountSIDHere',
+    authToken: 'dfadskfasfsaYourAuthTokenHere',
 
     // API Key/Secret Pair - generate a pair in the console
-    apiKey: 'SK6d5e98c3cbde40f82a249471307ade3b',
-    apiSecret: 'VdQVwYYZyUMhAUXhgxmMgLgrKx6hTGoC',
+    apiKey: 'SKxdf3fsdfsdYourAPIKeySIDHere',
+    apiSecret: 'sdfdsfsadYourAPISecretHere',
+
+   //Your Phone Number - the one you want to associate with SMS/Calls
+   phoneNumber='' || 'DUMMY'
 
 
     //any other config parameters here 
