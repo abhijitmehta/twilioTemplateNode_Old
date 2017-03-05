@@ -102,6 +102,22 @@ app.post('/ep1', function(i_Req, o_Res)
     o_Res.send(response.toString());
 
 });
+	
+app.get("/echo" , function(req,res)
+{
+ var text = "I will echo whatever I get :: " + JSON.stringify(req.query) ;
+ console.log(text);
+ res.send(text);
+});
+
+
+app.post("/echo" , function(req,res)
+{
+ var text = "I will echo whatever I get :: " + JSON.stringify(req.body) ;
+ console.log(req);
+ console.log(req.body);
+ res.send(text);
+});	
 
 app.get("/" , function(req,res)
  {
