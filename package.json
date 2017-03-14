@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/abhijitmehta/twilioTemplateNode",
   "dependencies": {
-    "twilio": "^1.6.0",
+    "twilio": "*",
     "express": "^4.5.1",
     "morgan": "^1.1.1"
   },
