@@ -15,7 +15,7 @@ module.exports = {
     apiSecret: 'sdfdsfsadYourAPISecretHere',
 
    //Your Phone Number - the one you want to associate with SMS/Calls
-   phoneNumber='' || 'DUMMY'
+   phoneNumber='DUMMY' ,
 
 
     //any other config parameters here 
